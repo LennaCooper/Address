@@ -1,0 +1,28 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let number = ['35', '27', '67', '136', '210', '55']
+let street = ['Dummy Drive', 'Yourmoms Road', 'Zombie Street', 'Apocolypse Road']
+let city = ['Philadelphia', 'New York', 'Portland', 'Chicago']
+let state = ['CT', 'NY', 'OR', 'MA']
+let zip = ['06611', '90210', '00666', '92350']
+
+let randomNumber = number[Math.floor(Math.random() * number.length)];
+let randomStreet = street[Math.floor(Math.random() * street.length)];
+let randomCity = city[Math.floor(Math.random() * city.length)];
+let randomState = state[Math.floor(Math.random() * state.length)];
+let randomZip = zip[Math.floor(Math.random() * zip.length)];
+
+console.log(randomNumber + ' ' + randomStreet + ', ' + randomCity + ', ' + randomState + ' ' + randomZip)
+
+
+    </script>
+</body>
+</html>
